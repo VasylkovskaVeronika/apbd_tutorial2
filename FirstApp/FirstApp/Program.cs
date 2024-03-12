@@ -1,13 +1,13 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 
-static double GetAverage(int[] arr)
+static double GetAverage(int[] array)
 {
-    double res = 0;
-    foreach (var num in arr)
+    double result = 0;
+    foreach (var n in array)
     {
-        res += num;
+        result += n;
     }
-    res /= arr.Length;
-    return res;
+    result /= array.Length;
+    return result;
 }
